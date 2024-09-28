@@ -27,6 +27,7 @@
     Block,
     PhotoBrowser
   } from 'framework7-svelte';
+    import { onMount } from 'svelte';
 
   let standalone;
   let photos = [];
