@@ -41,7 +41,7 @@
     spaceBetween: 20
   }
   
-  const imageModules = import.meta.glob('../../public/images/*');
+  const imageModules = import.meta.glob('../../public/images/**/*');
   for (const path in imageModules) {
     imageModules[path]().then((mod) => {
       let el = {
