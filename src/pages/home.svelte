@@ -35,7 +35,7 @@
 
   let swiper = {
     autoplay: {
-      delay: 4000,
+      delay: 5000,
     },
     speed: 700,
     spaceBetween: 20
@@ -46,7 +46,7 @@
     imageModules[path]().then((mod) => {
       let el = {
         url: mod.default,
-        caption: mod.default
+        // caption: mod.default
       }
       photos.push(el)
       thumbs.push(el)
